@@ -15,7 +15,7 @@ void GotoXY(int x, int y) { //커서를 원하고자 하는 좌표로 이동,
 * getCursor() 반환값은 COORD 자료형의 Pos변수인데,
 * COORD의 정의 파킹을 보면, 정수형 x, y 값을 갖는 구조체입니다.
 * 따라서 Pos를 반환한 다는 것은 GetStdHandle을 통해서
-* *콘솔창에서 위치하는 커서의 좌표 x, y 를 구조체 Coord인 Pos에 값을 저장한다.
+* *콘솔창에서 위치하는 커서의 좌표 x, y 를 구조체 Coord인 Pos에 값을 저장합니다.
 * 그리고 콘솔창에서 출력되고 있는 현재 커서 위치를 반환한다.
 */
 COORD getCursor(void) {//현재 커서 위치를 반환
