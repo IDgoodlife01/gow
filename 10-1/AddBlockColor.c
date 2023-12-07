@@ -1,5 +1,5 @@
-#include "AddBlockColor.h"
-#include "Screen.h"//Screen.h에 Color색 정의되어 있습니다.
+#include "AddBlockColor.h" 
+#include "Screen.h"//Screen.h에 Color색 정의되어 있다.
 void colorRetention(int colorType) {
 	switch (colorType) {
 	case 0:
