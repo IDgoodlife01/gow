@@ -1,4 +1,4 @@
-#include "AddBlockColor.h" 
+#include "AddBlockColor.h" //주석되는지 테스트
 #include "Screen.h"//Screen.h에 Color색 정의되어 있다.
 void colorRetention(int colorType) {
 	switch (colorType) {
