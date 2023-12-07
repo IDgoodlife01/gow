@@ -29,7 +29,7 @@ COORD getCursor(void) {//현재 커서 위치를 반환
 /*
 *CursorView(boolean show)
 * 인자값에 따라서 커서가 깜빡이는게 보여질지, 숨겨질지
-**CursorInfo를 정해주는 함수이다.
+**CursorInfo를 정해주는 함수입니다.
 */
 void CursorView(boolean show) {
 	CONSOLE_CURSOR_INFO ConsoleCursor;
