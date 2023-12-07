@@ -1,0 +1,713 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "'SecPicture[y]'에서 잘못된 데이터를 읽는 중입니다."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 8,
+                  "endLine": 108,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InGameFrame",
+                  "decoratedName": "InGameFrame",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'SecPicture'이(가) 216바이트 배열입니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('y<9' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 시작, ('picture[y][x]==0' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('picture[y][x]==5'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 시작, ('picture[y][x]==0' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('picture[y][x]==5'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('y<9' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 계속, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 계속, ('y<9' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('y<3' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'x'이(가) 18과(와) 같습니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x>=0' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'x'은(는) 'GotoXY'(c:\\users\\82103\\source\\repos\\창의실무프로젝트\\10-1\\consolecursor.h:6에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'SecPicture[y][18]'에서 읽기가 잘못됨, (읽기 가능한 범위는 0에서 17 사이임)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32216.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/82103/source/repos/창의실무프로젝트/10-1/Screen.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2a43838ef40a8608b571d44469db49312a5238b6569d9c5131b38caeb95a06e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/screen.h"
+          },
+          "hashes": {
+            "sha-256": "dd257a2c157b1eea340847deb3f08bc6132ba4d1cdfbd38364ea18fcf08f019f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/blocks.h"
+          },
+          "hashes": {
+            "sha-256": "821cfc8ad53277a73081b722053c3a1cb0afe9c0340c0ecab41ee5bbc3c7e000"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/controller.h"
+          },
+          "hashes": {
+            "sha-256": "5bcc87d7890d61a05113237c599e5259cb6d233484b3d8bf6b3809b176f0558b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/consolecursor.h"
+          },
+          "hashes": {
+            "sha-256": "4f144b639bd7763ef291752b7f2491061f7a79597f234cb896ff931e8c07b123"
+          }
+        }
+      ]
+    }
+  ]
+}

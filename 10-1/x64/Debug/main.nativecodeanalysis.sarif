@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32216.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/main.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "24978183cba82bcdadaf2cdb5c92f90024297dc01d9f0b55533af92af635d63d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/blocks.h"
+          },
+          "hashes": {
+            "sha-256": "821cfc8ad53277a73081b722053c3a1cb0afe9c0340c0ecab41ee5bbc3c7e000"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/controller.h"
+          },
+          "hashes": {
+            "sha-256": "5bcc87d7890d61a05113237c599e5259cb6d233484b3d8bf6b3809b176f0558b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/screen.h"
+          },
+          "hashes": {
+            "sha-256": "dd257a2c157b1eea340847deb3f08bc6132ba4d1cdfbd38364ea18fcf08f019f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/82103/source/repos/창의실무프로젝트/10-1/consolecursor.h"
+          },
+          "hashes": {
+            "sha-256": "4f144b639bd7763ef291752b7f2491061f7a79597f234cb896ff931e8c07b123"
+          }
+        }
+      ]
+    }
+  ]
+}

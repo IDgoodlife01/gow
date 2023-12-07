@@ -1,0 +1,5 @@
+﻿  Controller.c
+C:\Users\82103\Desktop\창의실무프로젝트 20202680김형준\10-1\Controller.c(13,9): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\82103\Desktop\창의실무프로젝트 20202680김형준\10-1\Controller.c(142,8): warning C4101: 'Pos' :참조되지 않은 지역 변수입니다.
+C:\Users\82103\Desktop\창의실무프로젝트 20202680김형준\10-1\Controller.c(219,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  10-1.vcxproj -> C:\Users\82103\Desktop\창의실무프로젝트 20202680김형준\x64\Debug\10-1.exe
