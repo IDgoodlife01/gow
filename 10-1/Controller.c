@@ -3,7 +3,7 @@
 #include "ConsoleCursor.h"
 #include "AddBlockColor.h"
 
-//함수 설명은 Controller.h 파일에 설명되어 있습니다.
+//함수 설명은 Controller.h 파일에 설명되어 있다.
 void RotateBlock() {
 	turn = ++turn;
 	if (turn == 4) turn = turn % 4;
